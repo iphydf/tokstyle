@@ -1,4 +1,14 @@
-/.stack-work
-/cabal.config
-/cabal.sandbox.config
+# Build products.
 /dist
+/.stack-work
+/stack.yaml.lock
+/*.tix
+/.*.pid
+/.*.stamp
+
+/.cabal-sandbox
+/cabal.sandbox.config
+
+# Temporary files.
+*~
+*.swp
